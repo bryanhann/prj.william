@@ -1,0 +1,5 @@
+cd $(dirname $0)
+export PYTHONPATH=${PWD}/lib
+export PATH=$PATH:$PWD
+export PATH=$PATH:$PWD/bin
+bash
